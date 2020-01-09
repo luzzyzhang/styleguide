@@ -6,6 +6,56 @@ See README.md for details.
 
 # Google Python Style Guide
 
+<!-- TOC -->
+
+- [Google Python Style Guide](#google-python-style-guide)
+    - [1 Background](#1-background)
+    - [2 Python Language Rules](#2-python-language-rules)
+        - [2.1 Lint](#21-lint)
+        - [2.2 Imports](#22-imports)
+        - [2.3 Packages](#23-packages)
+        - [2.4 Exceptions](#24-exceptions)
+        - [2.5 Global variables](#25-global-variables)
+        - [2.6 Nested/Local/Inner Classes and Functions](#26-nestedlocalinner-classes-and-functions)
+        - [2.7 Comprehensions & Generator Expressions](#27-comprehensions--generator-expressions)
+        - [2.8 Default Iterators and Operators](#28-default-iterators-and-operators)
+        - [2.9 Generators](#29-generators)
+        - [2.10 Lambda Functions](#210-lambda-functions)
+        - [2.11 Conditional Expressions](#211-conditional-expressions)
+        - [2.12 Default Argument Values](#212-default-argument-values)
+        - [2.13 Properties](#213-properties)
+        - [2.14 True/False Evaluations](#214-truefalse-evaluations)
+        - [2.15 Deprecated Language Features](#215-deprecated-language-features)
+        - [2.16 Lexical Scoping](#216-lexical-scoping)
+        - [2.17 Function and Method Decorators](#217-function-and-method-decorators)
+        - [2.18 Threading](#218-threading)
+        - [2.19 Power Features](#219-power-features)
+        - [2.20 Modern Python: Python 3 and from \_\_future\_\_ imports](#220-modern-python-python-3-and-from-\_\_future\_\_-imports)
+        - [2.21 Type Annotated Code](#221-type-annotated-code)
+    - [3 Python Style Rules](#3-python-style-rules)
+        - [3.1 Semicolons](#31-semicolons)
+        - [3.2 Line length](#32-line-length)
+        - [3.3 Parentheses](#33-parentheses)
+        - [3.4 Indentation](#34-indentation)
+        - [3.4.1 Trailing commas in sequences of items?](#341-trailing-commas-in-sequences-of-items)
+        - [3.5 Blank Lines](#35-blank-lines)
+        - [3.6 Whitespace](#36-whitespace)
+        - [3.7 Shebang Line](#37-shebang-line)
+        - [3.8 Comments and Docstrings](#38-comments-and-docstrings)
+        - [3.9 Classes](#39-classes)
+        - [3.10 Strings](#310-strings)
+        - [3.11 Files and Sockets](#311-files-and-sockets)
+        - [3.12 TODO Comments](#312-todo-comments)
+        - [3.13 Imports formatting](#313-imports-formatting)
+        - [3.14 Statements](#314-statements)
+        - [3.15 Accessors](#315-accessors)
+        - [3.16 Naming](#316-naming)
+        - [3.17 Main](#317-main)
+        - [3.18 Function length](#318-function-length)
+        - [3.19 Type Annotations](#319-type-annotations)
+    - [4 Parting Words](#4-parting-words)
+
+<!-- /TOC -->
 
 <a id="1-background"></a>
 
